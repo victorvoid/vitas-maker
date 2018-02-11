@@ -21,8 +21,9 @@ header h1 {
 
 ul.keys-panel {
     list-style: none;
+    max-width: 540px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
