@@ -1,0 +1,86 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #3F3E3E;
+}
+
+header {
+    text-align: center;
+}
+
+header .vitas-avatar {
+    width: 60px;
+    border-radius: 100%;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+ul.keys-panel {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.keys-panel .key {
+    background: #303030;
+    width: 30%;
+    margin: 5px;
+    border-radius: 4px;
+    opacity: .8;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.keys-panel .key.active {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.keys-panel .key:before{
+    content: "";
+	  display: block;
+	  padding-top: 100%;
+}
+
+.keys-panel .key.active:first-child {
+    background-color: #89EA92;
+}
+
+.keys-panel .key.active:nth-child(2) {
+    background-color: #89EA92;
+}
+
+.keys-panel .key.active:nth-child(3) {
+    background-color: #89EA92;
+}
+
+.keys-panel .key.active:nth-child(4) {
+    background-color: #F58B78;
+}
+
+.keys-panel .key.active:nth-child(5) {
+    background-color: #F58B78;
+}
+
+.keys-panel .key.active:nth-child(6) {
+    background-color: #F58B78;
+}
+
+.keys-panel .key.active:nth-child(7) {
+    background-color: #b598f4;
+}
+
+.keys-panel .key.active:nth-child(8) {
+    background-color: #b598f4;
+}
+
+.keys-panel .key.active:nth-child(9) {
+    background-color: #b598f4;
+}
