@@ -31,7 +31,7 @@ ul.keys-panel {
 
 .keys-panel .key {
     background: #303030;
-    width: 30%;
+    width: 22%;
     margin: 5px;
     border-radius: 4px;
     opacity: .8;
@@ -46,42 +46,31 @@ ul.keys-panel {
 
 .keys-panel .key:before{
     content: "";
-	  display: block;
-	  padding-top: 100%;
+	display: block;
+	padding-top: 100%;
 }
 
-.keys-panel .key.active:first-child {
+.keys-panel .key.active:first-child,
+.keys-panel .key.active:nth-child(2),
+.keys-panel .key.active:nth-child(3),
+.keys-panel .key.active:nth-child(10),
+.keys-panel .key.active:nth-child(11),
+.keys-panel .key.active:nth-child(12) {
     background-color: #89EA92;
 }
 
-.keys-panel .key.active:nth-child(2) {
-    background-color: #89EA92;
-}
-
-.keys-panel .key.active:nth-child(3) {
-    background-color: #89EA92;
-}
-
-.keys-panel .key.active:nth-child(4) {
+.keys-panel .key.active:nth-child(4),
+.keys-panel .key.active:nth-child(5),
+.keys-panel .key.active:nth-child(6),
+.keys-panel .key.active:nth-child(13),
+.keys-panel .key.active:nth-child(14),
+.keys-panel .key.active:nth-child(15) {
     background-color: #F58B78;
 }
 
-.keys-panel .key.active:nth-child(5) {
-    background-color: #F58B78;
-}
-
-.keys-panel .key.active:nth-child(6) {
-    background-color: #F58B78;
-}
-
-.keys-panel .key.active:nth-child(7) {
-    background-color: #b598f4;
-}
-
-.keys-panel .key.active:nth-child(8) {
-    background-color: #b598f4;
-}
-
-.keys-panel .key.active:nth-child(9) {
+.keys-panel .key.active:nth-child(7),
+.keys-panel .key.active:nth-child(8),
+.keys-panel .key.active:nth-child(9),
+.keys-panel .key.active:nth-child(16) {
     background-color: #b598f4;
 }
